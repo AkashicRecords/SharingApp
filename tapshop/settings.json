@@ -1,0 +1,43 @@
+{
+  "public": {
+    "facebook": {
+      "appId": ""
+    },
+    "admob": {
+      "adId": ""
+    },
+    "fcm": {
+      "senderId": ""
+    },
+    "google":{
+      "clientId": ""
+    }    
+  },
+  "facebook": {
+    "secret": ""
+  },
+  "google": {
+      "secret": ""
+  },
+  "sendgrid": {
+    "apiKey": ""
+  },
+  "mailgun": {
+    "username": "",
+    "password": ""
+  },
+  "here": {
+    "appId": "",
+    "appCode": ""
+  },
+  "fcm": {
+    "serverKey": ""
+  },
+  "s3": {
+    "key": "",
+    "secret": "",
+    "bucket": "",
+    "region": "",
+    "domain": ""
+  }
+}
