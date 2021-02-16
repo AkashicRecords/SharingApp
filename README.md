@@ -292,8 +292,7 @@ Mobile application for IOS and Android written in Meteor.js Cordova Ionic
 							</blockquote>
 						</p>
 						<p>
-							You will then find the <span class="bold">mup.js</span> file inside the folder.  Configure this file as seen
-							in this example:
+							You will then find the <span class="bold">mup.js</span> file inside the folder.  Configure this file as seen in this example:
 						</p>
 
 						<blockquote>
