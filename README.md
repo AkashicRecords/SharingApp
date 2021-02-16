@@ -294,12 +294,13 @@ Mobile application for IOS and Android written in Meteor.js Cordova Ionic
 						<p>
 							You will then find the <span class="bold">mup.js</span> file inside the folder.  Configure this file as seen in this example:
 						</p>
+						<p>
 
 						<blockquote>
 							module.exports = { <br />
-							&emsp;servers: { <br />
+							&emsp;- servers: { <br />
 							&emsp;&emsp;one: { <br />
-							&emsp;&emsp;&emsp;host: '1.2.3.4', <span style="color: red;">//----> ip address of your server</span><br />
+							&emsp;&emsp;&emsp;host: '1.2.3.4', <span style="color: red;">//----> ip address of your server</span><br/>
 							&emsp;&emsp;&emsp;username: 'your-username',  <span style="color: red;">//----> your server username</span><br />
 							&emsp;&emsp;&emsp;password: 'your-password', <span style="color: red;">//----> your server password</span><br />
 							&emsp;&emsp;&emsp;// pem: './path/to/pem' <span style="color: red;">//----> if you are using ssh keys on server, uncomment and place file path of your keys.</span><br />
