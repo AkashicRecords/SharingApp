@@ -335,6 +335,7 @@ Mobile application for IOS and Android written in Meteor.js Cordova Ionic
 							&emsp;}<br />
 							};<br />
 						</blockquote>
+						</p>
 					</p>
 					<p>
 						<span class="bold">Step 3a (Optional)</span> - Add your SSL Certificate to your Web App for geolocation features to work on Chrome browser.
