@@ -296,45 +296,45 @@ Mobile application for IOS and Android written in Meteor.js Cordova Ionic
 						</p>
 						<p>
 
-						<blockquote>
-							module.exports = { <br />
-							&emsp;- servers: { <br />
-							&emsp;&emsp;one: { <br />
-							&emsp;&emsp;&emsp;host: '1.2.3.4', <span style="color: red;">//----> ip address of your server</span><br/>
-							&emsp;&emsp;&emsp;username: 'your-username',  <span style="color: red;">//----> your server username</span><br />
-							&emsp;&emsp;&emsp;password: 'your-password', <span style="color: red;">//----> your server password</span><br />
-							&emsp;&emsp;&emsp;// pem: './path/to/pem' <span style="color: red;">//----> if you are using ssh keys on server, uncomment and place file path of your keys.</span><br />
-							&emsp;&emsp;}<br />
-							&emsp;},<br />
-							&emsp;meteor: {<br />
-							&emsp;&emsp;name: 'tapshop', <span style="color: red;">//----> your app name.</span><br />
-							&emsp;&emsp;path: '/your-file-location/tapshop', <span style="color: red;">//----> file location of tapshop folder.</span><br />
-							&emsp;&emsp;servers: {<br />
-							&emsp;&emsp;&emsp;one: {}<br />
-							&emsp;&emsp;},<br />
-							&emsp;&emsp;buildOptions: {<br />
-							&emsp;&emsp;&emsp;serverOnly: true<br />
-							&emsp;&emsp;},<br />
-							&emsp;&emsp;env: {<br />
-							&emsp;&emsp;&emsp;ROOT_URL: 'http://your-domain.com', <span style="color: red;">//----> your domain name.</span><br />
-							&emsp;&emsp;&emsp;MONGO_URL: 'mongodb://localhost/meteor' <br />
-							&emsp;&emsp;},<br />
-							&emsp;&emsp;docker:{<br />
-							&emsp;&emsp;&emsp;image: 'abernix/meteord:base'<br />
-							&emsp;&emsp;},<br />
-							&emsp;&emsp;deployCheckWaitTime: 96,<br />
-							&emsp;&emsp;enableUploadProgressBar: false<br />
-							&emsp;},<br />
-							&emsp;mongo: {<br />
-							&emsp;&emsp;oplog: true,<br />
-							&emsp;&emsp;port: 27017,<br />
-							&emsp;&emsp;version: '3.4.1',<br />
-							&emsp;&emsp;servers: {<br />
-							&emsp;&emsp;&emsp;one: {}<br />
-							&emsp;&emsp;}<br />
-							&emsp;}<br />
-							};<br />
-						</blockquote>
+							<blockquote>
+								&emsp;module.exports = { <br />
+								&emsp;- servers: { <br />
+								&emsp;&emsp;one: { <br />
+								&emsp;&emsp;&emsp;host: '1.2.3.4', <span style="color: red;">//----> ip address of your server</span><br/>
+								&emsp;&emsp;&emsp;username: 'your-username',  <span style="color: red;">//----> your server username</span><br />
+								&emsp;&emsp;&emsp;password: 'your-password', <span style="color: red;">//----> your server password</span><br />
+								&emsp;&emsp;&emsp;// pem: './path/to/pem' <span style="color: red;">//----> if you are using ssh keys on server, uncomment and place file path of your keys.</span><br />
+								&emsp;&emsp;}<br />
+								&emsp;},<br />
+								&emsp;meteor: {<br />
+								&emsp;&emsp;name: 'tapshop', <span style="color: red;">//----> your app name.</span><br />
+								&emsp;&emsp;path: '/your-file-location/tapshop', <span style="color: red;">//----> file location of tapshop folder.</span><br />
+								&emsp;&emsp;servers: {<br />
+								&emsp;&emsp;&emsp;one: {}<br />
+								&emsp;&emsp;},<br />
+								&emsp;&emsp;buildOptions: {<br />
+								&emsp;&emsp;&emsp;serverOnly: true<br />
+								&emsp;&emsp;},<br />
+								&emsp;&emsp;env: {<br />
+								&emsp;&emsp;&emsp;ROOT_URL: 'http://your-domain.com', <span style="color: red;">//----> your domain name.</span><br />
+								&emsp;&emsp;&emsp;MONGO_URL: 'mongodb://localhost/meteor' <br />
+								&emsp;&emsp;},<br />
+								&emsp;&emsp;docker:{<br />
+								&emsp;&emsp;&emsp;image: 'abernix/meteord:base'<br />
+								&emsp;&emsp;},<br />
+								&emsp;&emsp;deployCheckWaitTime: 96,<br />
+								&emsp;&emsp;enableUploadProgressBar: false<br />
+								&emsp;},<br />
+								&emsp;mongo: {<br />
+								&emsp;&emsp;oplog: true,<br />
+								&emsp;&emsp;port: 27017,<br />
+								&emsp;&emsp;version: '3.4.1',<br />
+								&emsp;&emsp;servers: {<br />
+								&emsp;&emsp;&emsp;one: {}<br />
+								&emsp;&emsp;}<br />
+								&emsp;}<br />
+								};<br />
+							</blockquote>
 						</p>
 					</p>
 					<p>
