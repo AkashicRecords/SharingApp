@@ -268,7 +268,7 @@ Mobile application for IOS and Android written in Meteor.js Cordova Ionic
 						<p>
 							Press ctrl + X to exit, and save changes.
 						</p>
-					</p>
+					
 					<p>
 						<span class="bold">Step 3</span> - On your computer, install Mup then enter your server details
 						on the <span class="bold">mup.json</span> file.
